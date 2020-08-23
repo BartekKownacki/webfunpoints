@@ -1,0 +1,8 @@
+body{
+    background: url('../img/tlo.jpg') no-repeat fixed center;
+}
+.container{
+    margin-top: 20px;
+    background-color: rgba(255,255,255,0.7);
+    padding:20px 20px;
+}

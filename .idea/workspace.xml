@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:heroku" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="3a66edae-025a-4b94-883b-bae06bf988ad" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/funpoints/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/funpoints/settings.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1c8v0odHuoDynwqaJb52YVZ2s9W" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RunManager" selected="Django Server.Unnamed">
+    <configuration name="Unnamed" type="Python.DjangoServer" factoryName="Django server" nameIsGenerated="true">
+      <module name="webfunpoints" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DJANGO_SETTINGS_MODULE" value="funpoints.settings" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="webfunpoints" type="Python.DjangoServer" factoryName="Django server">
+      <module name="webfunpoints" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DJANGO_SETTINGS_MODULE" value="funpoints.settings" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Django Server.webfunpoints" />
+      <item itemvalue="Django Server.Unnamed" />
+    </list>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3a66edae-025a-4b94-883b-bae06bf988ad" name="Default Changelist" comment="" />
+      <created>1589922814600</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1589922814600</updated>
+      <workItem from="1589922817911" duration="3903000" />
+      <workItem from="1590011007700" duration="8000" />
+      <workItem from="1590419526128" duration="601000" />
+      <workItem from="1590424883086" duration="600000" />
+      <workItem from="1591553872590" duration="152000" />
+      <workItem from="1591554111507" duration="2531000" />
+      <workItem from="1591560516812" duration="600000" />
+      <workItem from="1591722865077" duration="599000" />
+      <workItem from="1592326243989" duration="1189000" />
+      <workItem from="1592507551668" duration="337000" />
+      <workItem from="1592508951105" duration="2544000" />
+      <workItem from="1592647405892" duration="19000" />
+      <workItem from="1592647773918" duration="3729000" />
+      <workItem from="1592661876642" duration="1941000" />
+      <workItem from="1592742866954" duration="43000" />
+      <workItem from="1592863398775" duration="992000" />
+      <workItem from="1593462670632" duration="718000" />
+      <workItem from="1596452017759" duration="742000" />
+      <workItem from="1598220099212" duration="79000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="669" y="111" key="#Unnamed" timestamp="1592662446189">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="669" y="111" key="#Unnamed/0.0.1920.1050/1920.-129.1920.1050/-1280.47.1280.994@0.0.1920.1050" timestamp="1592662446189" />
+    <state x="669" y="111" key="#Unnamed/0.0.1920.1050@0.0.1920.1050" timestamp="1592648128417" />
+    <state x="552" y="183" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1592662439932">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="552" y="183" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1050/1920.-129.1920.1050/-1280.47.1280.994@0.0.1920.1050" timestamp="1592662439932" />
+    <state x="552" y="183" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1050/1920.-237.1920.1050/-1280.-97.1280.994@0.0.1920.1050" timestamp="1589922850834" />
+    <state x="552" y="183" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1592648124710" />
+    <state x="742" y="327" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1596452034470">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="742" y="327" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1050/1920.-129.1920.1050/-1280.47.1280.994@0.0.1920.1050" timestamp="1596452034470" />
+    <state x="669" y="111" key="#webfunpoints" timestamp="1592648098728">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="669" y="111" key="#webfunpoints/0.0.1920.1050/1920.-129.1920.1050/-1280.47.1280.994@0.0.1920.1050" timestamp="1592509068965" />
+    <state x="669" y="111" key="#webfunpoints/0.0.1920.1050@0.0.1920.1050" timestamp="1592648098728" />
+    <state x="739" y="280" key="FileChooserDialogImpl" timestamp="1589922928269">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="739" y="280" key="FileChooserDialogImpl/0.0.1920.1050/1920.-237.1920.1050/-1280.-97.1280.994@0.0.1920.1050" timestamp="1589922928269" />
+    <state width="1877" height="311" key="GridCell.Tab.0.bottom" timestamp="1593469408054">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="311" key="GridCell.Tab.0.bottom/0.0.1920.1050/-1280.47.1280.994/1920.-129.1920.1050@0.0.1920.1050" timestamp="1593469408054" />
+    <state width="1877" height="311" key="GridCell.Tab.0.bottom/0.0.1920.1050/1920.-129.1920.1050/-1280.47.1280.994@0.0.1920.1050" timestamp="1592864981687" />
+    <state width="1877" height="285" key="GridCell.Tab.0.bottom/0.0.1920.1050/1920.-237.1920.1050/-1280.-97.1280.994@0.0.1920.1050" timestamp="1589926725938" />
+    <state width="1877" height="311" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1592650108245" />
+    <state width="1877" height="311" key="GridCell.Tab.0.center" timestamp="1593469408054">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="311" key="GridCell.Tab.0.center/0.0.1920.1050/-1280.47.1280.994/1920.-129.1920.1050@0.0.1920.1050" timestamp="1593469408054" />
+    <state width="1877" height="311" key="GridCell.Tab.0.center/0.0.1920.1050/1920.-129.1920.1050/-1280.47.1280.994@0.0.1920.1050" timestamp="1592864981687" />
+    <state width="1877" height="285" key="GridCell.Tab.0.center/0.0.1920.1050/1920.-237.1920.1050/-1280.-97.1280.994@0.0.1920.1050" timestamp="1589926725938" />
+    <state width="1877" height="311" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1592650108245" />
+    <state width="1877" height="311" key="GridCell.Tab.0.left" timestamp="1593469408054">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="311" key="GridCell.Tab.0.left/0.0.1920.1050/-1280.47.1280.994/1920.-129.1920.1050@0.0.1920.1050" timestamp="1593469408054" />
+    <state width="1877" height="311" key="GridCell.Tab.0.left/0.0.1920.1050/1920.-129.1920.1050/-1280.47.1280.994@0.0.1920.1050" timestamp="1592864981687" />
+    <state width="1877" height="285" key="GridCell.Tab.0.left/0.0.1920.1050/1920.-237.1920.1050/-1280.-97.1280.994@0.0.1920.1050" timestamp="1589926725938" />
+    <state width="1877" height="311" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1592650108245" />
+    <state width="1877" height="311" key="GridCell.Tab.0.right" timestamp="1593469408054">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="311" key="GridCell.Tab.0.right/0.0.1920.1050/-1280.47.1280.994/1920.-129.1920.1050@0.0.1920.1050" timestamp="1593469408054" />
+    <state width="1877" height="311" key="GridCell.Tab.0.right/0.0.1920.1050/1920.-129.1920.1050/-1280.47.1280.994@0.0.1920.1050" timestamp="1592864981687" />
+    <state width="1877" height="285" key="GridCell.Tab.0.right/0.0.1920.1050/1920.-237.1920.1050/-1280.-97.1280.994@0.0.1920.1050" timestamp="1589926725938" />
+    <state width="1877" height="311" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1592650108245" />
+    <state x="461" y="170" key="SettingsEditor" timestamp="1592668253896">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="461" y="170" key="SettingsEditor/0.0.1920.1050/1920.-129.1920.1050/-1280.47.1280.994@0.0.1920.1050" timestamp="1592668253896" />
+    <state x="461" y="170" key="SettingsEditor/0.0.1920.1050/1920.-237.1920.1050/-1280.-97.1280.994@0.0.1920.1050" timestamp="1589922946090" />
+    <state x="623" y="227" width="672" height="60" key="search.everywhere.popup" timestamp="1589923499649">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="623" y="227" width="672" height="60" key="search.everywhere.popup/0.0.1920.1050/1920.-237.1920.1050/-1280.-97.1280.994@0.0.1920.1050" timestamp="1589923499649" />
+  </component>
+</project>

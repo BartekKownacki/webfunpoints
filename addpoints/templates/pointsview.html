@@ -1,0 +1,27 @@
+{% extends 'base.html' %}
+{% block title %}Punkty śmieszności Nesi - Widok{% endblock %}
+
+
+{% block content %}
+<div class="container">
+<h3>Dodajesz punkty jako: {{ request.user }}</h3>
+Aktualna liczba punktów: {{ points }}
+<br/>
+<form action="{% url 'addvalue'%}" method="post">
+    {% csrf_token %}
+    <input class="form-control" type="text" name="comment" placeholder="Komentarz do punktu">
+    <br>
+    <div style="margin-top:10px; margin-left:10px"  align="center">
+        <input type="submit" name="addvalue" class="btn btn-outline-success" value="Śmieszny żart :)">
+        <input type="submit" name="decvalue" class="btn btn-outline-danger" value="Nieśmieszny żart :(">
+    </div>
+
+</form>
+    <div align="center">
+        <div class="graph" style="width:200px;height: 30px; border:1px black solid; margin-top:10px; margin-left:10px; border-radius: 5px">
+            <a href="{% url 'history' %}"><div style="border-top-left-radius: 5px; border-bottom-left-radius: 5px; height:20px; width:{{ greenpoints }}px;background-color: green; margin-top:4px; margin-bottom:5px; margin-left:5px; float: left; text-align:center; color:white;">{{ greenpointspercent }}%</div>
+            <div style="border-top-right-radius: 5px; border-bottom-right-radius: 5px; height:20px; width:{{ redpoints }}px;background-color: red; margin-top:4px; margin-bottom:5px;margin-right: 5px;float: left; text-align: center; color:white;">{{ redpointspercent }}% </div></a>
+        </div>
+    </div>
+</div>
+{% endblock %}

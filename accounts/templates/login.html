@@ -1,0 +1,30 @@
+{% extends 'base.html' %}
+{% block title %}Punkty śmieszności Nesi - Login{% endblock %}
+
+
+{% block content %}
+<div class="container">
+    <h3>Login</h3>
+
+    <form method="post">
+        <div class="row">
+            {% csrf_token %}
+            <div class="col-12 col-md-6">
+                <input class="form-control" style="margin-bottom:5px" type="text" name="username" placeholder="Login...">
+            </div>
+            <div class="col-12 col-md-6">
+                <input class="form-control" style="margin-bottom:5px"  type="password" name="password" placeholder="Haslo...">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <input type="submit" name="addvalue" class="btn btn-outline-success">
+            </div>
+        </div>
+    </form>
+
+    {% for message in messages %}
+        <p>{{ message }}</p>
+    {% endfor %}
+</div>
+{% endblock %}

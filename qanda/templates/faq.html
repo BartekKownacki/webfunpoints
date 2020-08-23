@@ -1,0 +1,66 @@
+{% extends 'base.html' %}
+
+{% block title %}Punkty śmieszności Nesi - FAQ{% endblock %}
+
+{% block content %}
+<div class="container">
+    <h1>Zadaj pytanie!</h1>
+    <form action="{% url 'faq' %}" method="post" >
+        {% csrf_token %}
+        {{ form.label }}
+        {{ form.question }}
+
+        <input  class="btn btn-outline-success" name="submit" type="submit">
+    </form>
+
+
+
+<h1>FAQ</h1>
+    {% for objs in obj %}
+        {% if objs.publish %}
+            {{ objs.question }}
+            <br>
+            {{ objs.answer }}
+            {% if user.is_superuser %}
+                <br>
+                {% if objs.publish  %}
+                    Pytanie publiczne
+                {% else %}
+                    Pytanie niepubliczne
+                {% endif %}
+                <a href="{% url 'faqedit' pk=objs.pk %}"><button type="button" class="btn btn-dark">Edit</button></a>
+            {% endif %}
+            <strong><hr></strong>
+        {% else %}
+            {% if user.is_superuser %}
+                {{ objs.question }}
+                <br>
+                {{ objs.answer }}
+                <br>
+                {% if objs.publish  %}
+                    Pytanie publiczne
+                {% else %}
+                    Pytanie niepubliczne
+                {% endif %}
+                <a href="{% url 'faqedit' pk=objs.pk %}"><button type="button" class="btn btn-dark">Edit</button></a>
+                <strong><hr></strong>
+                {% endif %}
+
+        {% endif %}
+    {% endfor %}
+<div align="center">
+ <h3>Kolejne strony</h3>
+    <div class="paginator" style="width:200px; text-align:center">
+        {% if obj.has_previous %}
+            <a href="?page=1"><<<</a>
+            <a href="?page={{ obj.number| add:'-1'}}"><</a>
+        {% endif %}
+        {{ obj.number }}
+        {% if obj.has_next %}
+            <a href="?page={{ obj.number| add:'1'}}">></a>
+            <a href="?page={{ obj.paginator.num_pages }}">>>></a>
+        {% endif %}
+    </div>
+</div>
+</div>
+{% endblock %}

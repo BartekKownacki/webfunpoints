@@ -1,0 +1,36 @@
+{% extends 'base.html' %}
+{% block title %}Punkty śmieszności Nesi - Rejestracja{% endblock %}
+
+
+{% block content %}
+<div class="container">
+<h3 style="text-align:center">Rejestracja</h3>
+<div class="row">
+    <div class="d-none d-lg-block col-lg-4"></div>
+    <div class="col-12 col-lg-4" align="center">
+          <form method="post">
+            {% csrf_token %}
+
+            {{ form.username }}
+
+            {{ form.email }}
+
+            {{ form.password1 }}
+
+            {{ form.password2 }}
+
+            {{ form.errors }}
+            {% if form.errors %}
+            <ol>
+            {% for error in form.errors %}
+                <li><strong>{{ error|escape }}</strong></li>
+            {% endfor %}
+            </ol>
+            {% endif %}
+             <input type="submit" name="Stworz" value="Stwórz konto" class="btn btn-outline-success">
+        </form>
+    </div>
+  <div class="d-none d-lg-block col-lg-4"> </div>
+</div>
+</div>
+{% endblock %}
